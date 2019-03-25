@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>aa_metrics</name>
+    <version>0.0,0</name>
+    <description>Evaluate and produce metrics of real world performance</description>
+
+    <maintainer email="edhyah@gmail.com">Edward Ahn</maintainer>
+    <license>TODO</license>
+    <url type="website">https://github.com/r-pad/aa_metrics</url>
+    <author email="edhyah@gmail.com">Edward Ahn</author>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <build_depend>rosbag</build_depend>
+    <build_depend>rospy</build_depend>
+    <build_export_depend>rospy</build_export_depend>
+    <build_export_depend>rospy</build_export_depend>
+    <exec_depend>rosbag</exec_depend>
+    <exec_depend>rospy</exec_depend>
+
+</package>
