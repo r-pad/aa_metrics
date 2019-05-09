@@ -9,6 +9,7 @@ Project.
 
 import numpy as np
 
+
 def parse_bag(bag):
     start_time = None
     num_messages = bag.get_message_count()
